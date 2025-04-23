@@ -1,12 +1,19 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this code or figures, please cite our paper."
+title: "The trees with fixed eccentric sequence"
 authors:
   - family-names: Li
     given-names: Shu
     orcid: https://orcid.org/0000-0002-4075-9885
-title: "The trees with given eccentricity sequence"
+data-released: 2025-04-23
 version: 1.0.0
 identifiers:
-  - type: doi
-    value: 10.1996/shuli.1117
-date-released: 2024-03-15
+doi: 10.5281/zenodo.15268698
+repository-code: https://github.com/shuligraph/eccentric-spectral-radius
+license: MIT
+kewords:
+   - spectral radius
+   - eccentricity
+   - graph theory
+   - linear algebra
+   - tree structure
