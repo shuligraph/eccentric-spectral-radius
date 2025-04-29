@@ -31,7 +31,8 @@ def visualize_trees(trees, num_vertices, sequence_number, save_path=None):
         pos = graphviz_layout(tree, prog="dot")
         
         nx.draw(tree, pos=pos, with_labels=False, node_size=10, node_color='black', edge_color='gray', linewidths=0.5)
-        plt.title(f"Tree {i + 1}", fontsize=6)
+        maxvalue = max(np.linalg.eigvals(nx.adjacency_matrix(tree).toarray()))
+        plt.title(f"Tree {i + 1}\nRadius: {maxvalue.real: .5f}", fontsize=10)
 
     plt.tight_layout()
 
@@ -42,9 +43,9 @@ def visualize_trees(trees, num_vertices, sequence_number, save_path=None):
     print(f"Visualization saved to {save_path}")
 
 def main():
-    num_vertices = 14  # Change this to the desired number of vertices
-    r = 4
-    d = 7
+    num_vertices = 11  # Change this to the desired number of vertices
+    r = 3
+    d = 5
 
     all_trees = generate_trees(num_vertices)
 
