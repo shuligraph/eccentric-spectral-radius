@@ -15,7 +15,7 @@ This repository contains supplementary materials for the paper:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/eccentric-spectral-radius.git
+    git clone https://github.com/shuligraph/eccentric-spectral-radius.git
     cd eccentric-spectral-radius
     ```
 
