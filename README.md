@@ -25,10 +25,9 @@ This repository contains supplementary materials for the paper:
     pip install -r requirements.txt
     ```
 
-3. Run the main example:
-    ```bash
-    python example_tree.py
-    ```
+3. Open example_tree.py in VS Code and run the script. You will be prompted to input the desired values for the order n, radius r and diameter d.
+    
+4. After entering the values, the program will display several possible tree structures. Select one by entering its corresponding number and pressing Enter.
 
 This will generate the necessary figures and data in the `plots/` directory.
 
